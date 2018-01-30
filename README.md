@@ -25,6 +25,7 @@ P.S. non-homologous rearrangements (NHR) include non-homologous end-joining (NHE
 
 ## CNV Detection Software
 - CNVnator (Abyzov, Urban et al. 2010)
+- mrFAST (Alkan, Kidd et al. 2009)
 - Event-Wise-Testing (Yoon, Xuan et al. 2009)
     - i.e. Rdxplorer (Yoon et al., 2009)
 - Control-FREEC (Boeva et al., 2011)
@@ -47,10 +48,10 @@ P.S. non-homologous rearrangements (NHR) include non-homologous end-joining (NHE
 - mrCaNaVar
 - CNVeM
 - cnvHMM
+- cnvHitSeq
 
-<!-- mrFAST (Alkan, Kidd et al. 2009) -->
 - CoNIFER
-- XHMM
+- XHMM (Fromer, M. et al., 2012)
 - ExomeCNV
 - CONTRA
 - CONDEX
@@ -69,33 +70,117 @@ P.S. non-homologous rearrangements (NHR) include non-homologous end-joining (NHE
 - VariationHunter (Hormozdiari, Alkan et al. 2009)
 - DELLY (Korbel)
 - PEMer 
+- AB Large Indel Tool
 - Mobile Element Insertion Analysis with SPANNER
 - Mobile Element Locator Tool (MELT)
-
-- Pindel (Ye, Schulz et al. 2009)
+- Dinumt (for NUMT)
 - Transposable Element Insertions with MOSAIK
 
-- Cortex
-- TIGRA assembler
-- NovelSeq
-- SOAPdenovo (Li, Zhu et al. 2010)
-- TIGRA-SV
-- CROSSMATCH
-- Velvet
-- ABySS
 
-- CREST 
+- Cortex assembler
+- NovelSeq (Hajirasouliha et al. 2010)
+- SOAPdenovo (Li, R et al. 2010)
+- TIGRA-SV
+    - CROSSMATCH 
+    - AGE 
+- Velvet (Zerbino et al. 2008)
+- ABySS (Simpson et al. 2009)
+- EULER-USR (Chaisson, Brinza, & Pevzner, 2009)
+- ALLPATHS-LG (Gnerre et al. 2011)
+- SECluster
+- MUMmer
+- Platypus
+- PopIns (population-scale detection of
+novel sequence insertions, 2016)
+
+
+- MoDIL (Lee, Hormozdiari, Alkan, & Brudno, 2009)
+- MoGUL (Lee, Xing, & Brudno, 2010)
+- Corona (McKernan et al. 2009)
+
+- Pindel (Ye, Schulz et al. 2009)
+- Splitread (Karakoc et al. 2012)
+- Meerkat (Yang et al. 2013)
+- CREST
+- Socrates
 - Lumpy 
 - BreaKmer
+
+- PRISM
+- CLEVER
+- MATE-CLEVER
+- Tangram
+- SoftSearch
+- GASVPro
+- Ingap-SV
+- SVseq2
+- forestSV
+- RetroSeq
+- Gustaf
+- IMR-DENOM
+- TakeABreak 
+- Cloudbreak
+- SVMiner
+- ERDS
+- Breakway
+- SOAPsv
+- ClipCrop
+- splazerS
+- SLOPE
+- hydra-sv
+- SVM2
+- novoBreak
+
+- CLOVE (Schroder et al. 2017)
+
+
+#### Pipeline
+- SVMerge
+- HugeSeq
+- IntanSV
+- iSVP
 
 
 ## Combined strategy
 - Genome STRiP
 - HYDRA (Quinlan et al., 2010)
+- ABI tools
 - SVDetect (Zeitouni et al., 2010)
+- CNVer
 
 
 ## Illumina software
 - Canvas
 - manta
 - paragraph
+
+
+
+
+## 1000 Genomes Project
+- CNVnator
+- mrFAST
+- EWT
+- PEMer
+- AB Large Indel Tool
+- Delly
+- BreakDancer
+- VariationHunter
+- SPANNER
+- Pindel
+- MELT (for MEI)
+- Dinumt (for NUMT)
+- MOSAIK
+- Cortex
+- TIGRA-SV
+- SOAPdenovo
+- Genome STRiP
+- LobSTR
+- RepeatSeq (for STR)
+
+
+
+## Used in disease-related articles
+
+- XHMM (Patterns of genic intolerance of rare copy number variation in 59,898 human exomes, 2016)
+- LUMPY, cn.MOPS (Paired-duplication signatures mark cryptic inversions and other complex structural variation, 2015)
