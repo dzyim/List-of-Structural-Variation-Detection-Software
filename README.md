@@ -157,7 +157,7 @@ novel sequence insertions, 2016)
 
 
 
-## 1000 Genomes Project
+## Used in 1000 Genomes Project
 - CNVnator
 - mrFAST
 - EWT
