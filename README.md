@@ -36,6 +36,7 @@ P.S. non-homologous rearrangements (NHR) include non-homologous end-joining (NHE
 - CNVseq (Xie et al., 2009) 
 - SegSeq (Chiang et al., 2009)
 - BIC-seq
+- cifer
 - cnD
 - CNVer
 - CopySeq
@@ -49,6 +50,7 @@ P.S. non-homologous rearrangements (NHR) include non-homologous end-joining (NHE
 - CNVeM
 - cnvHMM
 - cnvHitSeq
+- CNVkit
 
 - CoNIFER
 - XHMM (Fromer, M. et al., 2012)
